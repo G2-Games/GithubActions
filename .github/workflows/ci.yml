@@ -1,4 +1,4 @@
-name: 'Run App Gardner,  Grant'
+name: 'Run App Gardner, Grant'
 
 on: [push, pull_request]
 
@@ -15,3 +15,4 @@ jobs:
         run: dotnet build
       - name: run unit tests
         run: dotnet test
+
