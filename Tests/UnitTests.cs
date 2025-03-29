@@ -118,7 +118,7 @@ public class Power
 	[TestMethod]
 	public void Power_Valid_Gardner()
 	{
-		Assert.AreEqual(4, Program.Power("2", "3"));
+		Assert.AreEqual(4, Program.Power("2", "2"));
 		Assert.AreEqual(16, Program.Power("4", "2"));
 		Assert.AreEqual(35, Program.Power("35", "1"));
 	}
